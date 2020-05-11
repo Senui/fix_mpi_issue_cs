@@ -22,6 +22,7 @@ struct XMLParams : public TMessage
 
     private:
     vector<vector<double>> data_;
+    ClassDef(XMLParams, 1);
 };
 
 inline std::ostream& operator<<(std::ostream& os, const XMLParams& vv)
